@@ -1,15 +1,40 @@
 /* Syling for Recipies html */
 
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: brown;
+}
+
 h1 {
-    font-size: 80px;
-    color: red;
-    background-color: white;
+    font-size: 100px;
+    color: orange;
+    text-align: center;
 
 }
 
 ul {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: small;
+    
+    font-size: 40px;
     color: aquamarine;
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
+li {
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+}
+
+li::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: black;
+    margin-right: 5px;
+    vertical-align: middle;
+}
