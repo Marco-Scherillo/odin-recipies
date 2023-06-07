@@ -13,16 +13,12 @@ h1 {
 
 }
 
-.image {
+img {
+    display: flex;
     size-adjust: 200px;
 }
 
-.contrainer {
-    display: flex;
-    align-items: center;
-}
-
-.text {
+p {
     text-align: left;
     margin-right: 600px;
 }
